@@ -1,0 +1,21 @@
+PODS:
+  - ModuleA (0.0.1)
+  - STRouter (0.0.3)
+
+DEPENDENCIES:
+  - ModuleA (from `../ModuleA`)
+  - STRouter (from `../../STRouter`)
+
+EXTERNAL SOURCES:
+  ModuleA:
+    :path: "../ModuleA"
+  STRouter:
+    :path: "../../STRouter"
+
+SPEC CHECKSUMS:
+  ModuleA: 8341e44ad06c89351c134708c0fce5faad0740db
+  STRouter: 9e03182de9753ad028cca44f74ba4259d6b0e274
+
+PODFILE CHECKSUM: 09f2318fedd46188f24399c42f2bca7cd8e2ba28
+
+COCOAPODS: 1.5.0
