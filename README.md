@@ -7,15 +7,40 @@
 ##### 2、增加非Native(Weex、RN)调用支持，便于非Native调用Native方法
 
 ## 使用
+```objc
+// 从模块A跳转到模块B的ViewController
+UIViewController *vc = [[STRouter router] st_performClassAction:@"new" target:@"ModuleB_xxxViewController"];
+// 配置ModuleB_xxxViewController的属性
+[obj_b optimizedOCSetValue:pid ?: @"" forKey:@"pid"];
+[self.navigationController pushViewController:vc animated:YES];
+```
+
+```objc
+// 从模块A调用模块B的Class方法
+NSDictionary *infoDic = @{};
+STRouterValue *result = [[STRouterValue router] st_performClassAction:@"ModuleB_ClassB_ClassMethodB:" target:@"ModuleB_ClassB" params:STRouterBridgingRetain(infoDic), nil];
+```
+
+```objc
+// 从模块A调用模块B的ModuleB_ClassB类的对象方法
+NSDictionary *infoDic = @{};
+STRouterValue *result = [[STRouterValue router] st_performClassAction:@"ModuleB_ClassB_InstanceMethodB:" target:@"ModuleB_ClassB" params:STRouterBridgingRetain(infoDic), nil];
+```
+
+
+```objc
+// 模块A使用模块B的Model
+NSObject *obj_b = [[STRouter router] performClassAction:@"new" target:@"ModuleB_xxxModelB"];
+// 配置ModuleB_xxxModelB的属性
+NSString *fileName = @"123.txt";
+NSInteger len = 63234;
+[obj_b optimizedOCSetValue:fileName ?: @"" forKey:@"fileName"];
+[obj_b optimizedCSetValue:&len forKey:@"fileLength"];
+
+```
 
 
 
-核心
-扩展performSelector:方法
-
-1. 优化performSelector的参数支持，系统提供支持最多支持两个参数
-2. 优化performSelector的参数类型支持，支持常量参数
-3. 优化performSelector的返回值支持，系统提供的方法返回值为非引用类型会取不到应有返回值
 
 
 
