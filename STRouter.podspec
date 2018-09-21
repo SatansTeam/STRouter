@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "STRouter"
-  s.version      = "0.0.3"
+  s.version      = "0.1.0"
   s.summary      = "路由中间件，通信中介者."
   s.platform     = :ios, '6.0'
 
@@ -82,7 +82,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/SatansTeam/STRouter.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
