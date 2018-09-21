@@ -13,7 +13,7 @@
 
 ## 协议
 
-STRouter 被许可在 MIT 协议下使用。查阅 LICENSE 文件来获得更多信息。
+STRouter 被许可在 MIT 协议下使用。查阅 [LICENSE](https://github.com/SatansTeam/STRouter/blob/master/LICENSE) 文件来获得更多信息。
 
 
 
