@@ -24,7 +24,9 @@ STRouterValue *result = [[STRouterValue router] st_performClassAction:@"ModuleB_
 从模块A调用模块B的ModuleB_ClassB类的对象方法
 ```objc
 NSDictionary *infoDic = @{};
-STRouterValue *result = [[STRouterValue router] st_performClassAction:@"ModuleB_ClassB_InstanceMethodB:" target:@"ModuleB_ClassB" params:STRouterBridgingRetain(infoDic), nil];
+NSInteger param1 = 11;
+NSObject *param2 = NSObject.new;
+STRouterValue *result = [[STRouterValue router] st_performAction:@"ModuleB_ClassB_InstanceMethodB:param1:param2:" target:@"ModuleB_ClassB" shouldCacheTarget:NO params:STRouterBridgingRetain(infoDic), &param1, STRouterBridgingRetain(param2), nil];
 ```
 
 模块A使用模块B的Model
@@ -35,13 +37,10 @@ NSString *fileName = @"123.txt";
 NSInteger len = 63234;
 [obj_b optimizedOCSetValue:fileName ?: @"" forKey:@"fileName"];
 [obj_b optimizedCSetValue:&len forKey:@"fileLength"];
+
+NSObject *param1 = NSObject.new;
+STRouterValue *result = [[STRouterValue router] st_performClassAction:@"ModuleB_ClassB_ClassMethodB:param1:" target:@"ModuleB_ClassB" params:STRouterBridgingRetain(obj_b), STRouterBridgingRetain(param1), nil];
 ```
-
-
-
-
-
-
 
 
 ## 协议
