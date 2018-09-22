@@ -2,6 +2,8 @@
 
 灵活、轻量级的 iOS Router
 
+[TOC]
+
 <!--![img0](https://github.com/SatansTeam/STRouter/blob/master/resource/st-0.png)-->
 <!--![img1](https://github.com/SatansTeam/STRouter/blob/master/resource/st-1.png)-->
 作为一线开发人员，随着公司业务的复杂度逐步提高，组件化、插件化是一个必然的趋势
