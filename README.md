@@ -1,7 +1,5 @@
 # STRouter
 
-[TOC]
-
 灵活、轻量级的 iOS Router
 
 <!--![img0](https://github.com/SatansTeam/STRouter/blob/master/resource/st-0.png)-->
