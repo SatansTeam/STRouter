@@ -1,6 +1,6 @@
 # STRouter
 
-灵活、轻便的 iOS Router
+灵活、轻量级的 iOS Router
 
 ### 近期迭代规划
 ##### 1、增加url调用支持，便于使用openURL:通过scheme直接打开某个界面
