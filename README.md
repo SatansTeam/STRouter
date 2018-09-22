@@ -4,7 +4,9 @@
 
 <!--![img0](https://github.com/SatansTeam/STRouter/blob/master/resource/st-0.png)-->
 <!--![img1](https://github.com/SatansTeam/STRouter/blob/master/resource/st-1.png)-->
+作为一线开发人员，随着公司业务的复杂度逐步提高，组件化、插件化是一个必然的趋势
 <img src="https://github.com/SatansTeam/STRouter/blob/master/resource/st-0.png" style="margin-left:0px" height="360" >
+STRouter应用于模块间通信，旨在使用成本最低的情况下实现组件间通信
 <img src="https://github.com/SatansTeam/STRouter/blob/master/resource/st-1.png" style="margin-left:0px" height="360" >
 
 ### 近期迭代规划
