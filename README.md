@@ -42,6 +42,16 @@ NSObject *param1 = NSObject.new;
 STRouterValue *result = [[STRouterValue router] st_performClassAction:@"ModuleB_ClassB_ClassMethodB:param1:" target:@"ModuleB_ClassB" params:STRouterBridgingRetain(obj_b), STRouterBridgingRetain(param1), nil];
 ```
 
+从模块A调用模块B的ModuleB_ClassB的Class方法的返回值（ModuleB_ClassT）的方法
+```objc
+NSInteger param1 = 11;
+NSObject *param2 = NSObject.new;
+NSObject *ModuleB_ClassT_Instance = [[STRouterValue router] st_performAction:@"ModuleB_ClassB_InstanceMethodB:param1:" target:@"ModuleB_ClassB" shouldCacheTarget:NO params:&param1, STRouterBridgingRetain(param2), nil];
+
+STRouterValue *result = [ModuleB_ClassT_Instance st_performSelector:NSSelectorFromString(@"ModuleB_ClassT_InstanceMethodT:param1:param2:") arguments:STRouterBridgingRetain(param0), &param1, STRouterBridgingRetain(param2), nil];
+// ModuleB_ClassT_InstanceMethodT:param1:param2: 的返回值是CGFloat
+CGFloat res = result.floatValue;
+```
 
 ## 协议
 
