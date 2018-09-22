@@ -3,6 +3,7 @@
 灵活、轻量级的 iOS Router
 
 ![img0](https://github.com/SatansTeam/STRouter/blob/master/resource/st-0.png)
+![img1](https://github.com/SatansTeam/STRouter/blob/master/resource/st-1.png)
 
 ### 近期迭代规划
 ##### 1、增加url调用支持，便于使用openURL:通过scheme直接打开某个界面
