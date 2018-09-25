@@ -3,32 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		066C0D0D39127B1549D181869F51E0D5 /* Pods-ExampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B406CBE7D00699431E60F2C4C07CEA28 /* Pods-ExampleTests-dummy.m */; };
-		07DE8DE6B3659203D4217711C8B0FDC6 /* ModuleA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC538CED8996BB89C317646B6682791B /* ModuleA-dummy.m */; };
-		14E959361EEA4DBFC5790E95335E26C7 /* NSObject+STPrivateness.m in Sources */ = {isa = PBXBuildFile; fileRef = E6CCA3D8849F2F5C7B53A6892515F34C /* NSObject+STPrivateness.m */; };
-		27572554173F87E665797B1D212FE862 /* STRouterPreHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C10F4BB1364ED1CB61498AC4A4B167 /* STRouterPreHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		376F10E7287CAEB0D99EF4B21F2FFC00 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5520D7F5EE6FD9035C63975DA77E6E7 /* Pods-Example-dummy.m */; };
-		39C683F41DC19936728E9799B9BD85BF /* STRouterValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F00878199CFCF81BC16B7D7188777A /* STRouterValue.m */; };
-		3FBCD84E1C9F6CD4359A996F73B195A5 /* NSObject+STPublication.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A59151CFD84CE278C8875EC9369E90 /* NSObject+STPublication.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46E30F397B0FFD652361C4723A635EEB /* NSObject+STPrivateness.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CFBD7C651C709CFA62BA5F7AD10DAF /* NSObject+STPrivateness.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4F1783FF1F4865779263FE18C7388923 /* NSObject+STPublication.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1BD0E350A704702D303E7DDBA2E1BC /* NSObject+STPublication.m */; };
-		56F2AB013E54D1FAAAA346A2B525DBA2 /* STRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F67B3C61BECB5D6277ED5CC2A30E1053 /* STRouter-dummy.m */; };
-		810435475686D528E9B8EB40EC0CE654 /* ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8698CCBD54226678D20ED37AEEE233B4 /* ModuleA.m */; };
-		8C96BC25AB6006DFB69E7229B2906CBB /* STRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B56CF573D3CC384AC852F56668BF13 /* STRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07DE8DE6B3659203D4217711C8B0FDC6 /* ModuleA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AACB999D11EF1BF5271BF9154BE730 /* ModuleA-dummy.m */; };
+		087A2FF3C4EF3A055B5B2AB47B570D9E /* STRouterPreHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 74BD83374905657CB0D5B1856804ABFC /* STRouterPreHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1B2032D97B92B186F17EF49F0DA79B4C /* STRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B3B6FF9CF7F8FE0F776D7A46ED43A1 /* STRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		257B305D4CC5F2258A80FB2B4CFFDFEC /* NSObject+STPublication.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A0590AF9CD59D5DC906D74AAE4F20AB /* NSObject+STPublication.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		271D8B6C215A25C700A7C30D /* LoginManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 271D8B6A215A25C700A7C30D /* LoginManager.h */; };
+		271D8B6D215A25C700A7C30D /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 271D8B6B215A25C700A7C30D /* LoginManager.m */; };
+		271D8B70215A294C00A7C30D /* LoginViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 271D8B6E215A294C00A7C30D /* LoginViewController.h */; };
+		271D8B71215A294C00A7C30D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 271D8B6F215A294C00A7C30D /* LoginViewController.m */; };
+		28D0E5A408A6DE09B3088ABFFFA511E4 /* NSObject+STPublication.m in Sources */ = {isa = PBXBuildFile; fileRef = CAF7451992BEBA59DBD2693FC8098BF1 /* NSObject+STPublication.m */; };
+		2AC90BFCA4608C6BECCCAEE937052671 /* NSObject+STPrivateness.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E994B460ADE2F1BAB81F787CF671357 /* NSObject+STPrivateness.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4DD8495FCF325D9A16F53BD55F5E2612 /* PayModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EB5A5FC312D8D3EE622411196BAC3A /* PayModule-dummy.m */; };
+		4FBDD2BE6D5A4D60AEF1A3DFC6E91120 /* STRouterValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A976598B6BB2AE0E16BB5998CB2C95F /* STRouterValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		596985C0C8B63CF1E4E09555F915DF00 /* LoginModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC024BC74C503D488BD49C9A9FCBAC8 /* LoginModule-dummy.m */; };
+		5BEF30ED52A39DE9B0106114136991F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		639A6628D4CA501E44440514339E6418 /* STRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1450DF93F371E8AB4CD9DD5D70472E06 /* STRouter-dummy.m */; };
+		7150BBE80D43A93B1714A09BCDE805FC /* PayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3AA135E6982ED3671FF44563845B96 /* PayViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7F2B1490D630ABB0240A0EFBD9B5F010 /* STRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 08080576DE9885F041B4A033A8FDEF88 /* STRouter.m */; };
+		810435475686D528E9B8EB40EC0CE654 /* ModuleA.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C76E5A9CBD19A88EE013A4ECAED099 /* ModuleA.m */; };
 		980E8BE4E942A03C39E928F41D662A65 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9C61456EC16C0E1F9327DCB1FF153A0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9D48F738F06550F0DB63FE96DDE69F18 /* STRouterValue.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3BA93400FB2E44FAFDC76087362451 /* STRouterValue.m */; };
 		A60DE23FF893DA143F559796939E9F49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		ABF034BF1A5AE4046EE1857CBF16437A /* STRouterValue.h in Headers */ = {isa = PBXBuildFile; fileRef = D75D19B5CE45BDB36AC52ADCB69B8973 /* STRouterValue.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D08F93FD2FC67C845B7ABB2B06E3283B /* STRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 870D94302FC09FC3FF32BF70B57A1607 /* STRouter.m */; };
-		E5224922530A76709EDA2943874853B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E95C638BEF2046AB804C522CF1C47DD2 /* ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DE9F3816C360E438C8F26E7F99B286 /* ModuleA.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EAF687161E74C9D5A83570976B18AB37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AA183EB4A452D98D67123CE8583B5D0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BC88ADAF7DB3E5E226477234A075C2BE /* LoginModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 167C7855EF7743F4BCEE4527317C092E /* LoginModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BED8741C4D1A841E7E0C6F3E9F4ECBD0 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5520D7F5EE6FD9035C63975DA77E6E7 /* Pods-Example-dummy.m */; };
+		C8F874BE19AEF3267F5CF624ED977885 /* PayModule.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6553C0FD4A46FFBDF5CDD8E3E01C78 /* PayModule.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E829E068515C15E2BA978A652B04B581 /* NSObject+STPrivateness.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1A11677C0D3ADA8F4E323E27244D16 /* NSObject+STPrivateness.m */; };
+		E95C638BEF2046AB804C522CF1C47DD2 /* ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8BC3111AB4858444FE903E684E37D5 /* ModuleA.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EAAE90F9017495DD99D6D7AB3899AAD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FFE8C53541461671D374D6926815BAA2 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C718FC25535313E2EACCF3F73F4C2 /* PayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1A6E6909DC17037E5FB508BE2DFF2A26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31D3F9262AF62DF50A3776E4E5B44070;
+			remoteInfo = STRouter;
+		};
 		2DDD1E6577D0307B3A3DB1497D9D3C73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -36,73 +55,115 @@
 			remoteGlobalIDString = 29E6002033858EE1D905DB42DAF91084;
 			remoteInfo = ModuleA;
 		};
-		4A7473DA869F50C1CF861DFCAFB73887 /* PBXContainerItemProxy */ = {
+		6D2810FB0B66E3C97F45FC420158B1F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 29E6002033858EE1D905DB42DAF91084;
-			remoteInfo = ModuleA;
+			remoteGlobalIDString = 27704B428576765283FB61130DE97A11;
+			remoteInfo = PayModule;
 		};
-		8B429C88B93239911E1C3475BDDE95C6 /* PBXContainerItemProxy */ = {
+		A2B2FF9273C5CDBBB86D771B5FEC8342 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4BDB6E755777C8EC2323C68E33B64731;
+			remoteGlobalIDString = 31D3F9262AF62DF50A3776E4E5B44070;
 			remoteInfo = STRouter;
 		};
 		CB7E93ED70FFD3A27C2742682600EBF1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4BDB6E755777C8EC2323C68E33B64731;
+			remoteGlobalIDString = 31D3F9262AF62DF50A3776E4E5B44070;
 			remoteInfo = STRouter;
+		};
+		DCDBFECADB8452134AC2D0FECA5BAA7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A06A2FD6E6246A6CD0A360000D54C80;
+			remoteInfo = LoginModule;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		048632EBF1B4B0E57CCE56079B2F52CD /* STRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = STRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		08DE9F3816C360E438C8F26E7F99B286 /* ModuleA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleA.h; path = ModuleA/ModuleA.h; sourceTree = "<group>"; };
+		08080576DE9885F041B4A033A8FDEF88 /* STRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STRouter.m; path = STRouter/STRouter.m; sourceTree = "<group>"; };
+		08887C0EBD41C2B284E5F0C3A69E286A /* LoginModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = LoginModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0989108AADA2EAB660D8D251E123045F /* Pods-ExampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1E0B6ADC9355456BC2274E62129A0F97 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ModuleA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0D8661FDAA681FF99A6BA4C610A45637 /* LoginModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LoginModule-prefix.pch"; sourceTree = "<group>"; };
+		0E79156289DEAEC4B82A38692F41C72D /* libPods-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1450DF93F371E8AB4CD9DD5D70472E06 /* STRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STRouter-dummy.m"; sourceTree = "<group>"; };
+		167C7855EF7743F4BCEE4527317C092E /* LoginModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoginModule.h; path = LoginModule/LoginModule.h; sourceTree = "<group>"; };
+		170C19E6F1C004693CE49E17C4C45205 /* PayModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PayModule-prefix.pch"; sourceTree = "<group>"; };
 		2284794A35242FE3EB4A8A957604B9FF /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		30B56CF573D3CC384AC852F56668BF13 /* STRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STRouter.h; path = STRouter/STRouter.h; sourceTree = "<group>"; };
-		3148B47921613FBF7704BF9217B8D726 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		271D8B6A215A25C700A7C30D /* LoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginManager.h; path = LoginModule/LoginManager.h; sourceTree = "<group>"; };
+		271D8B6B215A25C700A7C30D /* LoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginManager.m; path = LoginModule/LoginManager.m; sourceTree = "<group>"; };
+		271D8B6E215A294C00A7C30D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = LoginModule/LoginViewController.h; sourceTree = "<group>"; };
+		271D8B6F215A294C00A7C30D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = LoginModule/LoginViewController.m; sourceTree = "<group>"; };
+		2E8534C54536583D46AEDA9C9A2B7745 /* libLoginModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLoginModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1A11677C0D3ADA8F4E323E27244D16 /* NSObject+STPrivateness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+STPrivateness.m"; path = "STRouter/NSObject+STPrivateness.m"; sourceTree = "<group>"; };
+		3398377A49180B9103D2A1222F67ABCD /* ModuleA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleA-prefix.pch"; sourceTree = "<group>"; };
+		3948D937AE976883C8D49DD9495D5ADD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3D8BC3111AB4858444FE903E684E37D5 /* ModuleA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleA.h; path = ModuleA/ModuleA.h; sourceTree = "<group>"; };
+		3E994B460ADE2F1BAB81F787CF671357 /* NSObject+STPrivateness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+STPrivateness.h"; path = "STRouter/NSObject+STPrivateness.h"; sourceTree = "<group>"; };
+		40C8ED3315BF2B5909F542652D4A2457 /* LoginModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoginModule.xcconfig; sourceTree = "<group>"; };
 		4313AFAA35349C4E24894BD30F9885EC /* Pods-ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		59A59151CFD84CE278C8875EC9369E90 /* NSObject+STPublication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+STPublication.h"; path = "STRouter/NSObject+STPublication.h"; sourceTree = "<group>"; };
-		5A5510D24A5046949A73E97D50A471AD /* ModuleA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleA.xcconfig; sourceTree = "<group>"; };
+		4E151E6B7BBF96268A6B8BD6A10D9FED /* PayModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PayModule.xcconfig; sourceTree = "<group>"; };
+		529C718FC25535313E2EACCF3F73F4C2 /* PayViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PayViewController.m; path = PayModule/PayViewController.m; sourceTree = "<group>"; };
+		5BDE3E4CFC9A74AD0B9020D435231F76 /* ModuleA.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ModuleA.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		61B3B6FF9CF7F8FE0F776D7A46ED43A1 /* STRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STRouter.h; path = STRouter/STRouter.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C02D4F594E339C9E7E34EA1A5B19CBC /* libModuleA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libModuleA.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB4108D56DA4799363FEE18F1F48408 /* Pods-ExampleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-resources.sh"; sourceTree = "<group>"; };
-		85F00878199CFCF81BC16B7D7188777A /* STRouterValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STRouterValue.m; path = STRouter/STRouterValue.m; sourceTree = "<group>"; };
-		8698CCBD54226678D20ED37AEEE233B4 /* ModuleA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleA.m; path = ModuleA/ModuleA.m; sourceTree = "<group>"; };
-		86DA347D0DE41EC2F802E2B2222EF58C /* STRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STRouter.xcconfig; sourceTree = "<group>"; };
-		870D94302FC09FC3FF32BF70B57A1607 /* STRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STRouter.m; path = STRouter/STRouter.m; sourceTree = "<group>"; };
+		74BD83374905657CB0D5B1856804ABFC /* STRouterPreHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STRouterPreHeader.h; path = STRouter/STRouterPreHeader.h; sourceTree = "<group>"; };
+		7A0590AF9CD59D5DC906D74AAE4F20AB /* NSObject+STPublication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+STPublication.h"; path = "STRouter/NSObject+STPublication.h"; sourceTree = "<group>"; };
+		7A976598B6BB2AE0E16BB5998CB2C95F /* STRouterValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STRouterValue.h; path = STRouter/STRouterValue.h; sourceTree = "<group>"; };
+		7BC024BC74C503D488BD49C9A9FCBAC8 /* LoginModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LoginModule-dummy.m"; sourceTree = "<group>"; };
 		8D90900281635309941DB9B175D00AE9 /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8EA44EC266E21476A628ED1144C43069 /* libSTRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSTRouter.a; path = libSTRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFCB1046EB041F1BADF1A51B67584CF /* STRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STRouter-prefix.pch"; sourceTree = "<group>"; };
 		8FB33A0B935D5D57CDF0AFD0708227DA /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		992663C9C049B2D46B846335210BF1A7 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		9C9DD7F8B78EFA0B864211F2CC2838EC /* libModuleA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleA.a; path = libModuleA.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC95334269E1EB178D11316600E48B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9EF288E1D306BE4972810F797EE3C785 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
+		9F3AA135E6982ED3671FF44563845B96 /* PayViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayViewController.h; path = PayModule/PayViewController.h; sourceTree = "<group>"; };
 		A2EDC660E20DFCECF98709A3BD498180 /* Pods-ExampleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExampleTests-frameworks.sh"; sourceTree = "<group>"; };
+		A4C76E5A9CBD19A88EE013A4ECAED099 /* ModuleA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ModuleA.m; path = ModuleA/ModuleA.m; sourceTree = "<group>"; };
 		AC55E446E105BCD37D44850DC4D6A8F1 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		AE6B7A78B3B9FF37B9000F3DFD9427C5 /* libPayModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPayModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2EB5A5FC312D8D3EE622411196BAC3A /* PayModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PayModule-dummy.m"; sourceTree = "<group>"; };
 		B406CBE7D00699431E60F2C4C07CEA28 /* Pods-ExampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExampleTests-dummy.m"; sourceTree = "<group>"; };
-		CC03F7E5F5E055C7724E7F75E00E21CF /* STRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "STRouter-prefix.pch"; sourceTree = "<group>"; };
-		D5CFBD7C651C709CFA62BA5F7AD10DAF /* NSObject+STPrivateness.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+STPrivateness.h"; path = "STRouter/NSObject+STPrivateness.h"; sourceTree = "<group>"; };
-		D75D19B5CE45BDB36AC52ADCB69B8973 /* STRouterValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STRouterValue.h; path = STRouter/STRouterValue.h; sourceTree = "<group>"; };
-		D8C10F4BB1364ED1CB61498AC4A4B167 /* STRouterPreHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = STRouterPreHeader.h; path = STRouter/STRouterPreHeader.h; sourceTree = "<group>"; };
+		B603204B0B884AE24CD482E2084C6C6C /* ModuleA.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleA.xcconfig; sourceTree = "<group>"; };
+		C6AACB999D11EF1BF5271BF9154BE730 /* ModuleA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleA-dummy.m"; sourceTree = "<group>"; };
+		CAF7451992BEBA59DBD2693FC8098BF1 /* NSObject+STPublication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+STPublication.m"; path = "STRouter/NSObject+STPublication.m"; sourceTree = "<group>"; };
+		CE6553C0FD4A46FFBDF5CDD8E3E01C78 /* PayModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PayModule.h; path = PayModule/PayModule.h; sourceTree = "<group>"; };
+		D0F0776D69DDD76F9A3D32CC2E54A841 /* STRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = STRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D0FE217CB70987B606CE8B332FAA8F2C /* libSTRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSTRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3169B16A46956E8448D010E2D315D9D /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5497FD7D508DE7FBBA988CBC710FB35 /* PayModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = PayModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DA2F754989BC67CE1C69417CDD939D6A /* Pods-ExampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DB7C2FC1CF19A0D143B6D6FFDF3EAA77 /* Pods-ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		DFF9549F2351E0528F6EA5ADB1C1D39A /* libPods-ExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ExampleTests.a"; path = "libPods-ExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5520D7F5EE6FD9035C63975DA77E6E7 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		E6CCA3D8849F2F5C7B53A6892515F34C /* NSObject+STPrivateness.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+STPrivateness.m"; path = "STRouter/NSObject+STPrivateness.m"; sourceTree = "<group>"; };
-		E95EB1DEDC5C0ABB9EA49B1118348E85 /* ModuleA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleA-prefix.pch"; sourceTree = "<group>"; };
-		EA29F686E13410BE5C2BB168EE9E2F7A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F67B3C61BECB5D6277ED5CC2A30E1053 /* STRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "STRouter-dummy.m"; sourceTree = "<group>"; };
-		FC538CED8996BB89C317646B6682791B /* ModuleA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleA-dummy.m"; sourceTree = "<group>"; };
-		FE1BD0E350A704702D303E7DDBA2E1BC /* NSObject+STPublication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+STPublication.m"; path = "STRouter/NSObject+STPublication.m"; sourceTree = "<group>"; };
+		EE3BA93400FB2E44FAFDC76087362451 /* STRouterValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = STRouterValue.m; path = STRouter/STRouterValue.m; sourceTree = "<group>"; };
+		FFA6881DE0FA8674F0CFD181E4E48317 /* STRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = STRouter.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		404BA22A81D3ABBF6FFACEB69D1F4607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE90F9017495DD99D6D7AB3899AAD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4188A6DB97F1987148DF8B366DBE9E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEF30ED52A39DE9B0106114136991F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49F7AB97A9DFE5F4826E7157C04C9DE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -119,25 +180,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C424C4BA31D8E42A41208173F00947DF /* Frameworks */ = {
+		B4A3D9E614897CB81332EC9216854BD3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF687161E74C9D5A83570976B18AB37 /* Foundation.framework in Frameworks */,
+				AA183EB4A452D98D67123CE8583B5D0F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F72EDC439D4C8C8FEC39074189947E0F /* Frameworks */ = {
+		B50424CB3898AE1EF35469093971BF18 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5224922530A76709EDA2943874853B1 /* Foundation.framework in Frameworks */,
+				9C61456EC16C0E1F9327DCB1FF153A0C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B26E1FBB5D5A4DEE677A9FC51DF19B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E8534C54536583D46AEDA9C9A2B7745 /* libLoginModule.a */,
+				6C02D4F594E339C9E7E34EA1A5B19CBC /* libModuleA.a */,
+				AE6B7A78B3B9FF37B9000F3DFD9427C5 /* libPayModule.a */,
+				D3169B16A46956E8448D010E2D315D9D /* libPods-Example.a */,
+				0E79156289DEAEC4B82A38692F41C72D /* libPods-ExampleTests.a */,
+				D0FE217CB70987B606CE8B332FAA8F2C /* libSTRouter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21C8511589C452C28F415E52F1A52FA8 /* PayModule */ = {
+			isa = PBXGroup;
+			children = (
+				CE6553C0FD4A46FFBDF5CDD8E3E01C78 /* PayModule.h */,
+				9F3AA135E6982ED3671FF44563845B96 /* PayViewController.h */,
+				529C718FC25535313E2EACCF3F73F4C2 /* PayViewController.m */,
+				F25F5E942147C3449FEA7DD43270E43F /* Pod */,
+				6EF74C87C4E83320E17B9BD551CFDC89 /* Support Files */,
+			);
+			name = PayModule;
+			path = ../../PayModule;
+			sourceTree = "<group>";
+		};
 		221A1D3338FFDBF80E263959A2A6DE57 /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,33 +240,46 @@
 			path = "Target Support Files/Pods-Example";
 			sourceTree = "<group>";
 		};
-		298D2D3E1012215DE4BF727028713DD6 /* Products */ = {
+		28C59CDB8BD00B0EDF533AFC4026B249 /* ModuleA */ = {
 			isa = PBXGroup;
 			children = (
-				9C9DD7F8B78EFA0B864211F2CC2838EC /* libModuleA.a */,
-				3148B47921613FBF7704BF9217B8D726 /* libPods-Example.a */,
-				DFF9549F2351E0528F6EA5ADB1C1D39A /* libPods-ExampleTests.a */,
-				8EA44EC266E21476A628ED1144C43069 /* libSTRouter.a */,
+				3D8BC3111AB4858444FE903E684E37D5 /* ModuleA.h */,
+				A4C76E5A9CBD19A88EE013A4ECAED099 /* ModuleA.m */,
+				DE85715B8760104DFFB3D43FE9044F30 /* Pod */,
+				4B7E1AF72DA6E8DDDE6ADFFA344FE30B /* Support Files */,
 			);
-			name = Products;
+			name = ModuleA;
+			path = ../../ModuleA;
 			sourceTree = "<group>";
 		};
-		32B37695B70ED9A6D4B3AADD742F635C /* Support Files */ = {
+		2E6E3077E5BAB85124343699F1B8C301 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5A5510D24A5046949A73E97D50A471AD /* ModuleA.xcconfig */,
-				FC538CED8996BB89C317646B6682791B /* ModuleA-dummy.m */,
-				E95EB1DEDC5C0ABB9EA49B1118348E85 /* ModuleA-prefix.pch */,
+				C2EF65BCB56DEB854F28E511161D9B45 /* LoginModule */,
+				28C59CDB8BD00B0EDF533AFC4026B249 /* ModuleA */,
+				21C8511589C452C28F415E52F1A52FA8 /* PayModule */,
+				7843CF4D470A6F771C31BEBCC2C36D3B /* STRouter */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4B7E1AF72DA6E8DDDE6ADFFA344FE30B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B603204B0B884AE24CD482E2084C6C6C /* ModuleA.xcconfig */,
+				C6AACB999D11EF1BF5271BF9154BE730 /* ModuleA-dummy.m */,
+				3398377A49180B9103D2A1222F67ABCD /* ModuleA-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Example/Pods/Target Support Files/ModuleA";
 			sourceTree = "<group>";
 		};
-		38470C3C7AFB8DF749D1F826266FD386 /* Pod */ = {
+		4C4E089362A2DE5B4B9F207C52292BFA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				EA29F686E13410BE5C2BB168EE9E2F7A /* LICENSE */,
-				048632EBF1B4B0E57CCE56079B2F52CD /* STRouter.podspec */,
+				9CC95334269E1EB178D11316600E48B8 /* LICENSE */,
+				3948D937AE976883C8D49DD9495D5ADD /* README.md */,
+				D0F0776D69DDD76F9A3D32CC2E54A841 /* STRouter.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -199,55 +299,64 @@
 			path = "Target Support Files/Pods-ExampleTests";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		6EF74C87C4E83320E17B9BD551CFDC89 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A7C9C22C21F42955BAE32636C85E1810 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				298D2D3E1012215DE4BF727028713DD6 /* Products */,
-				FA42E75AFBADE04FC285CD6009E4FD77 /* Targets Support Files */,
+				4E151E6B7BBF96268A6B8BD6A10D9FED /* PayModule.xcconfig */,
+				B2EB5A5FC312D8D3EE622411196BAC3A /* PayModule-dummy.m */,
+				170C19E6F1C004693CE49E17C4C45205 /* PayModule-prefix.pch */,
 			);
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/PayModule";
 			sourceTree = "<group>";
 		};
-		92B82CF9A79C080127DF68D04940B186 /* ModuleA */ = {
+		7843CF4D470A6F771C31BEBCC2C36D3B /* STRouter */ = {
 			isa = PBXGroup;
 			children = (
-				08DE9F3816C360E438C8F26E7F99B286 /* ModuleA.h */,
-				8698CCBD54226678D20ED37AEEE233B4 /* ModuleA.m */,
-				E534AAC1191834902BDCC9EE0FE5816E /* Pod */,
-				32B37695B70ED9A6D4B3AADD742F635C /* Support Files */,
-			);
-			name = ModuleA;
-			path = ../../ModuleA;
-			sourceTree = "<group>";
-		};
-		A2030F4AE886FD25FF9E16CF58B70D7B /* STRouter */ = {
-			isa = PBXGroup;
-			children = (
-				D5CFBD7C651C709CFA62BA5F7AD10DAF /* NSObject+STPrivateness.h */,
-				E6CCA3D8849F2F5C7B53A6892515F34C /* NSObject+STPrivateness.m */,
-				59A59151CFD84CE278C8875EC9369E90 /* NSObject+STPublication.h */,
-				FE1BD0E350A704702D303E7DDBA2E1BC /* NSObject+STPublication.m */,
-				30B56CF573D3CC384AC852F56668BF13 /* STRouter.h */,
-				870D94302FC09FC3FF32BF70B57A1607 /* STRouter.m */,
-				D8C10F4BB1364ED1CB61498AC4A4B167 /* STRouterPreHeader.h */,
-				D75D19B5CE45BDB36AC52ADCB69B8973 /* STRouterValue.h */,
-				85F00878199CFCF81BC16B7D7188777A /* STRouterValue.m */,
-				38470C3C7AFB8DF749D1F826266FD386 /* Pod */,
-				EB6494EA2B7D3A6DB9C7E16B1AEF7D5C /* Support Files */,
+				3E994B460ADE2F1BAB81F787CF671357 /* NSObject+STPrivateness.h */,
+				2F1A11677C0D3ADA8F4E323E27244D16 /* NSObject+STPrivateness.m */,
+				7A0590AF9CD59D5DC906D74AAE4F20AB /* NSObject+STPublication.h */,
+				CAF7451992BEBA59DBD2693FC8098BF1 /* NSObject+STPublication.m */,
+				61B3B6FF9CF7F8FE0F776D7A46ED43A1 /* STRouter.h */,
+				08080576DE9885F041B4A033A8FDEF88 /* STRouter.m */,
+				74BD83374905657CB0D5B1856804ABFC /* STRouterPreHeader.h */,
+				7A976598B6BB2AE0E16BB5998CB2C95F /* STRouterValue.h */,
+				EE3BA93400FB2E44FAFDC76087362451 /* STRouterValue.m */,
+				4C4E089362A2DE5B4B9F207C52292BFA /* Pod */,
+				F7A9957EEA4CCF9FFA52D98B85AC7381 /* Support Files */,
 			);
 			name = STRouter;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		A7C9C22C21F42955BAE32636C85E1810 /* Development Pods */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				92B82CF9A79C080127DF68D04940B186 /* ModuleA */,
-				A2030F4AE886FD25FF9E16CF58B70D7B /* STRouter */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2E6E3077E5BAB85124343699F1B8C301 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0B26E1FBB5D5A4DEE677A9FC51DF19B6 /* Products */,
+				FA42E75AFBADE04FC285CD6009E4FD77 /* Targets Support Files */,
 			);
-			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		85961406B6853B7A7A776EAF6556CC2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40C8ED3315BF2B5909F542652D4A2457 /* LoginModule.xcconfig */,
+				7BC024BC74C503D488BD49C9A9FCBAC8 /* LoginModule-dummy.m */,
+				0D8661FDAA681FF99A6BA4C610A45637 /* LoginModule-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Example/Pods/Target Support Files/LoginModule";
+			sourceTree = "<group>";
+		};
+		AD809A7AF934F84E11FA94EDD9147679 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				08887C0EBD41C2B284E5F0C3A69E286A /* LoginModule.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -258,6 +367,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C2EF65BCB56DEB854F28E511161D9B45 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				167C7855EF7743F4BCEE4527317C092E /* LoginModule.h */,
+				271D8B6A215A25C700A7C30D /* LoginManager.h */,
+				271D8B6B215A25C700A7C30D /* LoginManager.m */,
+				271D8B6E215A294C00A7C30D /* LoginViewController.h */,
+				271D8B6F215A294C00A7C30D /* LoginViewController.m */,
+				AD809A7AF934F84E11FA94EDD9147679 /* Pod */,
+				85961406B6853B7A7A776EAF6556CC2E /* Support Files */,
+			);
+			name = LoginModule;
+			path = ../../LoginModule;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,20 +390,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E534AAC1191834902BDCC9EE0FE5816E /* Pod */ = {
+		DE85715B8760104DFFB3D43FE9044F30 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1E0B6ADC9355456BC2274E62129A0F97 /* ModuleA.podspec */,
+				5BDE3E4CFC9A74AD0B9020D435231F76 /* ModuleA.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		EB6494EA2B7D3A6DB9C7E16B1AEF7D5C /* Support Files */ = {
+		F25F5E942147C3449FEA7DD43270E43F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				86DA347D0DE41EC2F802E2B2222EF58C /* STRouter.xcconfig */,
-				F67B3C61BECB5D6277ED5CC2A30E1053 /* STRouter-dummy.m */,
-				CC03F7E5F5E055C7724E7F75E00E21CF /* STRouter-prefix.pch */,
+				D5497FD7D508DE7FBBA988CBC710FB35 /* PayModule.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F7A9957EEA4CCF9FFA52D98B85AC7381 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFA6881DE0FA8674F0CFD181E4E48317 /* STRouter.xcconfig */,
+				1450DF93F371E8AB4CD9DD5D70472E06 /* STRouter-dummy.m */,
+				8EFCB1046EB041F1BADF1A51B67584CF /* STRouter-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/STRouter";
@@ -297,15 +429,34 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0F2E8B9548B23ABDF945220DE4ECBA25 /* Headers */ = {
+		47A182A39D79924632A3243E76625F4D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46E30F397B0FFD652361C4723A635EEB /* NSObject+STPrivateness.h in Headers */,
-				3FBCD84E1C9F6CD4359A996F73B195A5 /* NSObject+STPublication.h in Headers */,
-				8C96BC25AB6006DFB69E7229B2906CBB /* STRouter.h in Headers */,
-				27572554173F87E665797B1D212FE862 /* STRouterPreHeader.h in Headers */,
-				ABF034BF1A5AE4046EE1857CBF16437A /* STRouterValue.h in Headers */,
+				C8F874BE19AEF3267F5CF624ED977885 /* PayModule.h in Headers */,
+				7150BBE80D43A93B1714A09BCDE805FC /* PayViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55653C956B8BEE4DDBD5910ABA61C337 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271D8B6C215A25C700A7C30D /* LoginManager.h in Headers */,
+				BC88ADAF7DB3E5E226477234A075C2BE /* LoginModule.h in Headers */,
+				271D8B70215A294C00A7C30D /* LoginViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8A85100976ED950233573DB2DE8E84F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC90BFCA4608C6BECCCAEE937052671 /* NSObject+STPrivateness.h in Headers */,
+				257B305D4CC5F2258A80FB2B4CFFDFEC /* NSObject+STPublication.h in Headers */,
+				1B2032D97B92B186F17EF49F0DA79B4C /* STRouter.h in Headers */,
+				087A2FF3C4EF3A055B5B2AB47B570D9E /* STRouterPreHeader.h in Headers */,
+				4FBDD2BE6D5A4D60AEF1A3DFC6E91120 /* STRouterValue.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +471,60 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0A06A2FD6E6246A6CD0A360000D54C80 /* LoginModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C65851ED7ECBA1C519158CAB41790A7B /* Build configuration list for PBXNativeTarget "LoginModule" */;
+			buildPhases = (
+				F7B2886815E1A3A0E86715A1F1F58C0B /* Sources */,
+				404BA22A81D3ABBF6FFACEB69D1F4607 /* Frameworks */,
+				55653C956B8BEE4DDBD5910ABA61C337 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoginModule;
+			productName = LoginModule;
+			productReference = 2E8534C54536583D46AEDA9C9A2B7745 /* libLoginModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0D59E02B75DBBB9D8CA6F4FEA9F250FD /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E91C6D9506F31B5B6951269D89927A33 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				05CCE29AA39FF679B00F3AF91F832020 /* Sources */,
+				4188A6DB97F1987148DF8B366DBE9E60 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D962D66252273ED87B0B31A7B03F6C50 /* PBXTargetDependency */,
+				BCDB394DA160733CBE1C6C72835C1334 /* PBXTargetDependency */,
+				89C9D87C9949288717A82AFFABC44A2B /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = D3169B16A46956E8448D010E2D315D9D /* libPods-Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		27704B428576765283FB61130DE97A11 /* PayModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60A443C34EF8F7118EE840B3CA8C33F4 /* Build configuration list for PBXNativeTarget "PayModule" */;
+			buildPhases = (
+				E1BA63901C39960389124CDD852BAA49 /* Sources */,
+				B50424CB3898AE1EF35469093971BF18 /* Frameworks */,
+				47A182A39D79924632A3243E76625F4D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8F414EE3A797B4938A804C852601DA /* PBXTargetDependency */,
+			);
+			name = PayModule;
+			productName = PayModule;
+			productReference = AE6B7A78B3B9FF37B9000F3DFD9427C5 /* libPayModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		29E6002033858EE1D905DB42DAF91084 /* ModuleA */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A006F1243D8C48D0A687AB39ACE21105 /* Build configuration list for PBXNativeTarget "ModuleA" */;
@@ -334,16 +539,16 @@
 			);
 			name = ModuleA;
 			productName = ModuleA;
-			productReference = 9C9DD7F8B78EFA0B864211F2CC2838EC /* libModuleA.a */;
+			productReference = 6C02D4F594E339C9E7E34EA1A5B19CBC /* libModuleA.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		4BDB6E755777C8EC2323C68E33B64731 /* STRouter */ = {
+		31D3F9262AF62DF50A3776E4E5B44070 /* STRouter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D0F58F842D230E30510FF6ADB8D33FB /* Build configuration list for PBXNativeTarget "STRouter" */;
+			buildConfigurationList = 78A24E63328F58E4C44FE734F7C26869 /* Build configuration list for PBXNativeTarget "STRouter" */;
 			buildPhases = (
-				91BED417FDB5C658BDE4FA140EB37C4B /* Sources */,
-				F72EDC439D4C8C8FEC39074189947E0F /* Frameworks */,
-				0F2E8B9548B23ABDF945220DE4ECBA25 /* Headers */,
+				BC89C17B7E5DCF9FDD3600B871980438 /* Sources */,
+				B4A3D9E614897CB81332EC9216854BD3 /* Frameworks */,
+				F8A85100976ED950233573DB2DE8E84F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -351,25 +556,7 @@
 			);
 			name = STRouter;
 			productName = STRouter;
-			productReference = 8EA44EC266E21476A628ED1144C43069 /* libSTRouter.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		542619E35B6C780552CDC43791C94D5F /* Pods-Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4FD856AA3F5D4F866817C7F67BA8B93 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
-			buildPhases = (
-				A1AC5820C7C46248692151795043BDED /* Sources */,
-				C424C4BA31D8E42A41208173F00947DF /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3909BD186A4B83F3B2920016E178075E /* PBXTargetDependency */,
-				EC08202D5BB846AC7A6844DE96E6031D /* PBXTargetDependency */,
-			);
-			name = "Pods-Example";
-			productName = "Pods-Example";
-			productReference = 3148B47921613FBF7704BF9217B8D726 /* libPods-Example.a */;
+			productReference = D0FE217CB70987B606CE8B332FAA8F2C /* libSTRouter.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A0BAA697A2F1F9315FD673F4968B3B83 /* Pods-ExampleTests */ = {
@@ -387,7 +574,7 @@
 			);
 			name = "Pods-ExampleTests";
 			productName = "Pods-ExampleTests";
-			productReference = DFF9549F2351E0528F6EA5ADB1C1D39A /* libPods-ExampleTests.a */;
+			productReference = 0E79156289DEAEC4B82A38692F41C72D /* libPods-ExampleTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -407,19 +594,29 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 298D2D3E1012215DE4BF727028713DD6 /* Products */;
+			productRefGroup = 0B26E1FBB5D5A4DEE677A9FC51DF19B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				0A06A2FD6E6246A6CD0A360000D54C80 /* LoginModule */,
 				29E6002033858EE1D905DB42DAF91084 /* ModuleA */,
-				542619E35B6C780552CDC43791C94D5F /* Pods-Example */,
+				27704B428576765283FB61130DE97A11 /* PayModule */,
+				0D59E02B75DBBB9D8CA6F4FEA9F250FD /* Pods-Example */,
 				A0BAA697A2F1F9315FD673F4968B3B83 /* Pods-ExampleTests */,
-				4BDB6E755777C8EC2323C68E33B64731 /* STRouter */,
+				31D3F9262AF62DF50A3776E4E5B44070 /* STRouter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		05CCE29AA39FF679B00F3AF91F832020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED8741C4D1A841E7E0C6F3E9F4ECBD0 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EF2722CA8D6D0A3950E440274A7DC95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -428,23 +625,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91BED417FDB5C658BDE4FA140EB37C4B /* Sources */ = {
+		BC89C17B7E5DCF9FDD3600B871980438 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E959361EEA4DBFC5790E95335E26C7 /* NSObject+STPrivateness.m in Sources */,
-				4F1783FF1F4865779263FE18C7388923 /* NSObject+STPublication.m in Sources */,
-				56F2AB013E54D1FAAAA346A2B525DBA2 /* STRouter-dummy.m in Sources */,
-				D08F93FD2FC67C845B7ABB2B06E3283B /* STRouter.m in Sources */,
-				39C683F41DC19936728E9799B9BD85BF /* STRouterValue.m in Sources */,
+				E829E068515C15E2BA978A652B04B581 /* NSObject+STPrivateness.m in Sources */,
+				28D0E5A408A6DE09B3088ABFFFA511E4 /* NSObject+STPublication.m in Sources */,
+				639A6628D4CA501E44440514339E6418 /* STRouter-dummy.m in Sources */,
+				7F2B1490D630ABB0240A0EFBD9B5F010 /* STRouter.m in Sources */,
+				9D48F738F06550F0DB63FE96DDE69F18 /* STRouterValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1AC5820C7C46248692151795043BDED /* Sources */ = {
+		E1BA63901C39960389124CDD852BAA49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				376F10E7287CAEB0D99EF4B21F2FFC00 /* Pods-Example-dummy.m in Sources */,
+				4DD8495FCF325D9A16F53BD55F5E2612 /* PayModule-dummy.m in Sources */,
+				FFE8C53541461671D374D6926815BAA2 /* PayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,20 +655,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7B2886815E1A3A0E86715A1F1F58C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271D8B6D215A25C700A7C30D /* LoginManager.m in Sources */,
+				596985C0C8B63CF1E4E09555F915DF00 /* LoginModule-dummy.m in Sources */,
+				271D8B71215A294C00A7C30D /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		19D405ED29177F8E75402EA76E243765 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = STRouter;
-			target = 4BDB6E755777C8EC2323C68E33B64731 /* STRouter */;
+			target = 31D3F9262AF62DF50A3776E4E5B44070 /* STRouter */;
 			targetProxy = CB7E93ED70FFD3A27C2742682600EBF1 /* PBXContainerItemProxy */;
 		};
-		3909BD186A4B83F3B2920016E178075E /* PBXTargetDependency */ = {
+		89C9D87C9949288717A82AFFABC44A2B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ModuleA;
-			target = 29E6002033858EE1D905DB42DAF91084 /* ModuleA */;
-			targetProxy = 4A7473DA869F50C1CF861DFCAFB73887 /* PBXContainerItemProxy */;
+			name = STRouter;
+			target = 31D3F9262AF62DF50A3776E4E5B44070 /* STRouter */;
+			targetProxy = A2B2FF9273C5CDBBB86D771B5FEC8342 /* PBXContainerItemProxy */;
+		};
+		BCDB394DA160733CBE1C6C72835C1334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PayModule;
+			target = 27704B428576765283FB61130DE97A11 /* PayModule */;
+			targetProxy = 6D2810FB0B66E3C97F45FC420158B1F1 /* PBXContainerItemProxy */;
 		};
 		CB5B62CC24F988EFEE4A1F8C5C2363E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -478,15 +692,68 @@
 			target = 29E6002033858EE1D905DB42DAF91084 /* ModuleA */;
 			targetProxy = 2DDD1E6577D0307B3A3DB1497D9D3C73 /* PBXContainerItemProxy */;
 		};
-		EC08202D5BB846AC7A6844DE96E6031D /* PBXTargetDependency */ = {
+		CD8F414EE3A797B4938A804C852601DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = STRouter;
-			target = 4BDB6E755777C8EC2323C68E33B64731 /* STRouter */;
-			targetProxy = 8B429C88B93239911E1C3475BDDE95C6 /* PBXContainerItemProxy */;
+			target = 31D3F9262AF62DF50A3776E4E5B44070 /* STRouter */;
+			targetProxy = 1A6E6909DC17037E5FB508BE2DFF2A26 /* PBXContainerItemProxy */;
+		};
+		D962D66252273ED87B0B31A7B03F6C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LoginModule;
+			target = 0A06A2FD6E6246A6CD0A360000D54C80 /* LoginModule */;
+			targetProxy = DCDBFECADB8452134AC2D0FECA5BAA7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0C2248B48B8AC888BF4173B2F142EF96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E151E6B7BBF96268A6B8BD6A10D9FED /* PayModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PayModule/PayModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PayModule;
+				PRODUCT_NAME = PayModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C54B254BB67D31812459A920D2786CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C8ED3315BF2B5909F542652D4A2457 /* LoginModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LoginModule/LoginModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LoginModule;
+				PRODUCT_NAME = LoginModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		19E228DB07B229A82682A1AE11560F23 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB7C2FC1CF19A0D143B6D6FFDF3EAA77 /* Pods-ExampleTests.release.xcconfig */;
@@ -509,9 +776,9 @@
 			};
 			name = Release;
 		};
-		313B2364865DBB37DDA988C578D0A192 /* Release */ = {
+		2D653037B470EBC1B24F5E9E1B0E96F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86DA347D0DE41EC2F802E2B2222EF58C /* STRouter.xcconfig */;
+			baseConfigurationReference = FFA6881DE0FA8674F0CFD181E4E48317 /* STRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -596,29 +863,6 @@
 			};
 			name = Debug;
 		};
-		42DC98FE73507872F326FDA54CE28703 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86DA347D0DE41EC2F802E2B2222EF58C /* STRouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/STRouter/STRouter-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = STRouter;
-				PRODUCT_NAME = STRouter;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		62602D6CB77E0A31A408E598226708B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4313AFAA35349C4E24894BD30F9885EC /* Pods-ExampleTests.debug.xcconfig */;
@@ -640,53 +884,30 @@
 			};
 			name = Debug;
 		};
-		7485FDDB1BDC7A512A8C0124B666BC70 /* Release */ = {
+		6A54FC532BE97BC71B00AA78934438AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 992663C9C049B2D46B846335210BF1A7 /* Pods-Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A673F587A979544DEF06BA030522C149 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A5510D24A5046949A73E97D50A471AD /* ModuleA.xcconfig */;
+			baseConfigurationReference = FFA6881DE0FA8674F0CFD181E4E48317 /* STRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ModuleA/ModuleA-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/STRouter/STRouter-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ModuleA;
-				PRODUCT_NAME = ModuleA;
+				PRODUCT_MODULE_NAME = STRouter;
+				PRODUCT_NAME = STRouter;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		DA0D1056EC46D713451F598D659EBB20 /* Debug */ = {
+		9141E72094120BC85DD7717BC5493558 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2284794A35242FE3EB4A8A957604B9FF /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
@@ -707,9 +928,33 @@
 			};
 			name = Debug;
 		};
+		A673F587A979544DEF06BA030522C149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B603204B0B884AE24CD482E2084C6C6C /* ModuleA.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleA/ModuleA-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ModuleA;
+				PRODUCT_NAME = ModuleA;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		DD9BDAE7BCCF48F3A30CAC9F77F6E0DF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A5510D24A5046949A73E97D50A471AD /* ModuleA.xcconfig */;
+			baseConfigurationReference = B603204B0B884AE24CD482E2084C6C6C /* ModuleA.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -729,6 +974,30 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		E94091A8CDA139B097CB6CCE69CB41ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C8ED3315BF2B5909F542652D4A2457 /* LoginModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/LoginModule/LoginModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = LoginModule;
+				PRODUCT_NAME = LoginModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		EE9974B2E1CA48BB8AF35F5F2D4F7C58 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -788,6 +1057,51 @@
 			};
 			name = Release;
 		};
+		F184A09B993B3642B1851912021D4259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992663C9C049B2D46B846335210BF1A7 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F775D738D60FF99ACEDF9F4DA7D25EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E151E6B7BBF96268A6B8BD6A10D9FED /* PayModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PayModule/PayModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PayModule;
+				PRODUCT_NAME = PayModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -809,11 +1123,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D0F58F842D230E30510FF6ADB8D33FB /* Build configuration list for PBXNativeTarget "STRouter" */ = {
+		60A443C34EF8F7118EE840B3CA8C33F4 /* Build configuration list for PBXNativeTarget "PayModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				42DC98FE73507872F326FDA54CE28703 /* Debug */,
-				313B2364865DBB37DDA988C578D0A192 /* Release */,
+				F775D738D60FF99ACEDF9F4DA7D25EC6 /* Debug */,
+				0C2248B48B8AC888BF4173B2F142EF96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A24E63328F58E4C44FE734F7C26869 /* Build configuration list for PBXNativeTarget "STRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A54FC532BE97BC71B00AA78934438AA /* Debug */,
+				2D653037B470EBC1B24F5E9E1B0E96F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -827,11 +1150,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4FD856AA3F5D4F866817C7F67BA8B93 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+		C65851ED7ECBA1C519158CAB41790A7B /* Build configuration list for PBXNativeTarget "LoginModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA0D1056EC46D713451F598D659EBB20 /* Debug */,
-				7485FDDB1BDC7A512A8C0124B666BC70 /* Release */,
+				0C54B254BB67D31812459A920D2786CC /* Debug */,
+				E94091A8CDA139B097CB6CCE69CB41ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E91C6D9506F31B5B6951269D89927A33 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9141E72094120BC85DD7717BC5493558 /* Debug */,
+				F184A09B993B3642B1851912021D4259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

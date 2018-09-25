@@ -1,7 +1,7 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/ModuleA" "${PODS_ROOT}/Headers/Public/STRouter"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LoginModule" "${PODS_ROOT}/Headers/Public/ModuleA" "${PODS_ROOT}/Headers/Public/PayModule" "${PODS_ROOT}/Headers/Public/STRouter"
 LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ModuleA" "${PODS_CONFIGURATION_BUILD_DIR}/STRouter"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/ModuleA" -isystem "${PODS_ROOT}/Headers/Public/STRouter"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/LoginModule" -isystem "${PODS_ROOT}/Headers/Public/ModuleA" -isystem "${PODS_ROOT}/Headers/Public/PayModule" -isystem "${PODS_ROOT}/Headers/Public/STRouter"
 OTHER_LDFLAGS = $(inherited) -ObjC -l"ModuleA" -l"STRouter"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

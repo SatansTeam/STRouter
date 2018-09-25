@@ -1,14 +1,15 @@
 source 'https://github.com/CocoaPods/Specs.git'  #官方仓库
 
 def default_deployment
-#    pod 'KSZCMediateRouter'
     pod 'STRouter', :path=> '../../STRouter'
 	pod 'ModuleA', :path=> '../ModuleA'
 end
 
 target 'Example' do
 platform :ios, '6.0'
-default_deployment()
+#default_deployment()
+pod 'LoginModule', :path=> '../LoginModule'
+pod 'PayModule', :path=> '../PayModule'
 end
 
 target 'ExampleTests' do

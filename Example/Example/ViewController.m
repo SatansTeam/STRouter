@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import <STRouter/STRouter.h>
+#import <PayModule/PayModule.h>
+
 @interface ViewController ()
 
 @end
@@ -17,13 +18,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//    [[STRouter router] performAction:@"voidReturnValueMethod" target:@"ModuleA" params:nil shouldCacheTarget:NO];
-//    NSString *a = @"qwer";
-//    NSString *b = @"asd";
-//    id obj = [[STRouter router] st_performAction:@"qwer:aaa:" target:@"ModuleA" shouldCacheTarget:NO params:&a,&b];
-//    STRouterBridgingRetain(@"ads");
+    CGFloat edge = 66.f;
+    
+    UIButton *payBtn = UIButton.new;
+    payBtn.frame = CGRectMake(edge, 200.f, CGRectGetWidth([UIScreen mainScreen].bounds) - edge * 2, 60.f);
+    [payBtn setTitle:@"支付" forState:UIControlStateNormal];
+    [payBtn setTitleColor:UIColor.cyanColor forState:UIControlStateNormal];
+    [payBtn addTarget:self action:@selector(payAction) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:payBtn];
 }
 
+- (void)payAction
+{
+    PayViewController *pvc = PayViewController.new;
+    [self.navigationController pushViewController:pvc animated:YES];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -1,21 +1,32 @@
 PODS:
+  - LoginModule (0.0.1)
   - ModuleA (0.0.1)
-  - STRouter (0.0.3)
+  - PayModule (0.0.1):
+    - STRouter
+  - STRouter (0.1.0)
 
 DEPENDENCIES:
+  - LoginModule (from `../LoginModule`)
   - ModuleA (from `../ModuleA`)
+  - PayModule (from `../PayModule`)
   - STRouter (from `../../STRouter`)
 
 EXTERNAL SOURCES:
+  LoginModule:
+    :path: "../LoginModule"
   ModuleA:
     :path: "../ModuleA"
+  PayModule:
+    :path: "../PayModule"
   STRouter:
     :path: "../../STRouter"
 
 SPEC CHECKSUMS:
+  LoginModule: dab928d8b516ba66ef8c8df5ee6cb1857521522c
   ModuleA: 8341e44ad06c89351c134708c0fce5faad0740db
-  STRouter: 9e03182de9753ad028cca44f74ba4259d6b0e274
+  PayModule: 5afb7b91eb6d8625cf3aed3f5ad2d6b745e5b948
+  STRouter: 3e96ca9002d40675d2ddca3b7623aafab89de42b
 
-PODFILE CHECKSUM: 09f2318fedd46188f24399c42f2bca7cd8e2ba28
+PODFILE CHECKSUM: 3d906b2d91fda80fe5ec2d0c79e6bab48e809dd7
 
 COCOAPODS: 1.5.0
