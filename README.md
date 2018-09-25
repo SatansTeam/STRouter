@@ -14,6 +14,15 @@ STRouter应用于模块间通信，旨在使用成本最低的情况下实现组
 ##### 1、增加url调用支持，便于使用openURL:通过scheme直接打开某个界面
 ##### 2、增加非Native(Weex、RN)调用支持，便于非Native调用Native方法
 
+## 依赖
+```ruby
+pod 'STRouter', '~>0.1.0'
+```
+如果你的模块使用CocoaPods管理自己的私有库，可以使用如下进行依赖
+```ruby
+<your-target-alias>.dependency "STRouter", '~>0.1.0'
+```
+
 ## 使用
 从模块A跳转到模块B的ViewController
 ```objc
